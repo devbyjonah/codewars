@@ -8,7 +8,7 @@ function generateHashtag (str) {
 
   if (nospace.length > 0 && nospace.length < 140){
 
-    /* seperates input into words */
+    /* separates input into words */
 
     let words = str.split(' ')
 
