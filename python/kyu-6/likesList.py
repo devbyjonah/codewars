@@ -1,5 +1,5 @@
 # formats a list of users who have liked an image
-# format method uses {} as placeholders, the * operator unpacks the name array with one elemnent for each placeholder
+# format method uses {} as placeholders, the * operator unpacks the name array with one element for each placeholder
 
 def likes(names):
     likes_display = ""
