@@ -1,10 +1,10 @@
 function generateHashtag (str) {
 
-/* hashtag generator accepts string and returns formatted hashtag */
+/* hashtag generator accepts string and returns it formatted as a hashtag */
 
-  let nospace = str.replace(/ /g, '')
+  let nospace = str.replace(/ /g, '') /* remove spaces from string */
 
-  /* checks for conditions str length greater than 0 and less than 140 characters */
+  /* checks for conditions str.length > 0 and str.length < 140 characters */
 
   if (nospace.length > 0 && nospace.length < 140){
 
@@ -26,5 +26,26 @@ function generateHashtag (str) {
 
     return false
 
+  }
+}
+
+/* alternate solution utilizing the map function in place of a for loop */
+
+function generateHashtagTwo (str) {
+
+  let nospace = str.replace(/ /g, '')
+
+  if (nospace.length > 0 && nospace.length < 140){
+
+    let words = str.split(' ')
+
+    words = words.map((i) => {return i.slice(0, 1).toUpperCase() + i.slice(1)})
+
+    return '#' + words.join('')
+
+  }else {
+    
+    return false
+    
   }
 }
