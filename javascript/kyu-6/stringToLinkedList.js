@@ -1,3 +1,8 @@
+// parse accepts a string representing a Linked List
+// Example: "1 -> 2 -> 3 -> null"
+// parse will return a linked list containing each value from the string
+// if the only value is null, parse will return null
+// the string items are guaranteed to consist of non-negative integers or null
 function parse(string) {
   // check for input only null
   if (string === "null") return null;
