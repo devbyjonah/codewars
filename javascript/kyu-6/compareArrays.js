@@ -5,6 +5,7 @@
 // returns false otherwise including [] or null inputs
 
 function comp(array1, array2) {
+  // check for empty or null inputs
   if (!array1 || !array2) return false;
   // generate FrequencyMap object from second array(squared)
   let squaredMap = new FrequencyMap(array2);
