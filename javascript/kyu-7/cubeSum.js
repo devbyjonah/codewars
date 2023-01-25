@@ -1,3 +1,7 @@
+// sumCubes function accepts an integer n
+// and returns the sum of n ** 3 while n > 0 and n--
+// Example: sumCubes(5) ---- (5 ** 3) + (4 ** 3) + (3 ** 3)....+ (1 ** 3)
+
 // One liner using javascript array methods fill, map, and reduce
 function sumCubes(n) {
   return new Array(n)
