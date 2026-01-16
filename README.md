@@ -1,7 +1,7 @@
 # Codewars solutions
 I will use this repository to store all of my kata solutions with extra documentation to act as a quick reference or for future use.
 
-Taking the time to refactor and document all of my kata solutions will help me to quickly recognize patterns and connections between different kinds of problems, helping me in my path to Javascript/Python mastery!
+Taking the time to refactor and document all of my kata solutions will help me to quickly recognize patterns and connections between different types of problems.
 
 Solutions are organized by language and by kyu level, if you're looking for a particular solution feel free to search
 for it by name. All solutions are named using camelCase and based on the name or goal of that particular kata.
